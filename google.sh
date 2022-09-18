@@ -4,7 +4,7 @@ text=""
 first="true"
 
 for i in "$@"; do
-  if [ "$first" = "true" ];
+  if [ "$first" = "true" ]
   then
     text="$text$i"
     first="false"
