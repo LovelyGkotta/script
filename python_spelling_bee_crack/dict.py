@@ -1,5 +1,5 @@
 
-words = open("/Users/chenyujie/Repos/spelling-bee-crack/python_spelling_bee_crack/20k.txt").read().splitlines()
+words = open("/Users/chenyujie/Repos/script/python_spelling_bee_crack/20k.txt").read().splitlines()
 
 word_dict = []
 for word in words:
